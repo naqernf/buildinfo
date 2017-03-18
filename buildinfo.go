@@ -10,6 +10,7 @@ var (
 	name       = "{No name provided}"
 	githash    = "{No githash provided}"
 	buildstamp = "{No buildstamp provided}"
+	builder    = "{No builder provided}"
 )
 
 func Name() string {
@@ -24,12 +25,8 @@ func Buildstamp() string {
 	return buildstamp
 }
 
-func String() string {
-	s := fmt.Sprintf("Name:            %s\n", name)
-	s += fmt.Sprintf("Git Commit Hash: %s\n", githash)
-	s += fmt.Sprintf("Build Time:      %s", buildstamp)
-
-	return s
+func Builder() string {
+	return builder
 }
 
 func Age() string {
