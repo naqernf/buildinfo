@@ -3,7 +3,7 @@ Provide basic build information
 
 
 ## Usage
-In shell of your choice zsh/bash/sh:
+In shell of your choice zsh/bash/sh,  
 cd to your project
 
 Put project path in GOPATH
@@ -28,5 +28,5 @@ Run example
         ./bin/example-${gitdescribe}
 
 
-Feedback is highly appreciated!
+Feedback is highly appreciated!  
 Please create an issue, if something is not working for you.
